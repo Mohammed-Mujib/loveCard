@@ -7,9 +7,9 @@ let conRec = box.getBoundingClientRect();
 let btnRec = no.getBoundingClientRect();
 yes.addEventListener("click",(e)=>{
     word.textContent = "I love You Too";
-    word.style.color = "var(--main-color)";
+    // word.style.color = "var(--main-color)";
     icon.innerHTML = `<i class="fa-solid fa-heart"></i>`;
-    icon.style.color =  "var(--main-color)";
+    // icon.style.color =  "var(--main-color)";
 
     no.style.display = "none"
     yes.style.display = "none"
